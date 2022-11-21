@@ -23,3 +23,18 @@ public class Kassasystem {
         System.out.println("Kunden får tillbaka: "+_1000+": 1000-lappar, "+_500+": 500-lappar, "+_200+
         ": 200-lappar, "+_100+": 100-lappar, "+_50+": 50-lappar, "+_20+": 20-lappar, "+_2 +": 2-lappar, "+_1+": 1-lappar.");
     }}
+
+    //Anta att summan är större eller lika med kostnaden, en negativ växel visar att det saknas
+    //int kostnad = 1600;
+    //int[] kundensInput = {1, 1, 0, 2, 0, 1, 1, 0};
+    //int[] pengaEnheter = {1000, 500, 200, 100, 50, 20, 2, 1};
+    //int[] vaxel = {0, 0, 0, 0, 0, 0, 0, 0};
+    //int total = 0;
+    //for (int i = 0; i < length(pengaEnheter); i++){
+    //  total += kundensInput[i]*pengaEnheter[i]};
+    //int skillnad = total - kostnad;
+    //int j = 0;
+    //while (skillnad > 0){ 
+    //  vaxel[j] = total%pengaEnheter[j]
+    //  skillnad += -(total%pengaEnheter[j])*pengaEnheter[j]
+    //  j += 1};
